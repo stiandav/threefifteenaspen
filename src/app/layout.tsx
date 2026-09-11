@@ -1,25 +1,19 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter, Caveat } from "next/font/google";
+import { Bodoni_Moda, Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const bodoni = Bodoni_Moda({
+  variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600", "700"],
   style: ["normal", "italic"],
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-});
-
-const caveat = Caveat({
-  variable: "--font-caveat",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
 });
 
 const siteUrl = "https://threefifteenaspen.vercel.app";
@@ -49,7 +43,7 @@ export const metadata: Metadata = {
       "News. Art. Coffee. Food. Vintage. Tattoos. Ideas. Community. A newly activated community hub in downtown Aspen.",
     url: siteUrl,
     siteName: "ThreeFifteen Aspen",
-    images: ["/images/building-courtyard-hero.jpg"],
+    images: ["/images/building-exterior-snow.jpg"],
     locale: "en_US",
     type: "website",
   },
@@ -57,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ThreeFifteen | 315 E. Hyman Ave, Aspen",
     description: "News. Art. Coffee. Food. Vintage. Tattoos. Ideas. Community.",
-    images: ["/images/building-courtyard-hero.jpg"],
+    images: ["/images/building-exterior-snow.jpg"],
   },
 };
 
@@ -65,9 +59,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${inter.variable} ${caveat.variable} h-full antialiased`}
+      className={`${bodoni.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-paper text-ink">
+      <body className="flex min-h-full flex-col bg-white text-black">
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
