@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ThreeFifteen Aspen
 
-## Getting Started
+The production website for **ThreeFifteen** — a reactivated mixed-use community building at
+315 E. Hyman Ave, Aspen, CO, between the Wheeler Opera House and Wagner Park.
 
-First, run the development server:
+News. Art. Coffee. Food. Vintage. Tattoos. Ideas. Community.
+
+## Tenants covered
+
+- [Aspen Daily News](https://www.aspendailynews.com) — anchor tenant, free daily newspaper since 1978
+- [Aspen Arts Club](https://www.aspenartsclub.org) — Buckhorn Public Arts' resident artist studio program
+- [Eddy's Marketplace & Kitchen](https://www.eddysmarketplace.com) — grab-and-go market + sit-down kitchen
+- [Mischief Vintage](https://www.mischiefvintage.com) — curated vintage & consignment
+- [Tattoo Aspen](https://tattooaspen.com) — private, appointment-only tattoo studio
+- The Grove — co-working & event space benefiting the Aspen Arts Club
+
+## Stack
+
+- [Next.js 16](https://nextjs.org) (App Router, TypeScript)
+- [Tailwind CSS v4](https://tailwindcss.com)
+- Deployed on [Vercel](https://vercel.com)
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content & images
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tenant copy is data-driven from [`src/data/tenants.ts`](src/data/tenants.ts). Photography and
+logos in `public/images/` are sourced from the building's own [@threefifteenaspen](https://www.instagram.com/threefifteenaspen)
+Instagram and each tenant's own website/press photography, used here to represent the businesses
+that appear in the directory.
