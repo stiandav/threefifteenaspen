@@ -36,8 +36,3 @@ body {
 .text-balance {
   text-wrap: balance;
 }
-
-/* Grayscale the footer map so it sits quietly in a black/white layout */
-.map-mono {
-  filter: grayscale(1) contrast(1.05) brightness(0.95);
-}

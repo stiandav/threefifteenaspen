@@ -76,7 +76,7 @@ export default async function TenantPage({
 
             {tenant.pullQuote && (
               <blockquote className="my-10 border-l-2 border-black pl-6">
-                <p className="font-display text-2xl italic leading-snug text-black text-balance">
+                <p className="font-display text-2xl leading-snug text-black text-balance">
                   &ldquo;{tenant.pullQuote.text}&rdquo;
                 </p>
                 <cite className="mt-3 block text-xs font-medium not-italic uppercase tracking-widest text-muted">

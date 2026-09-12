@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 const links = [
   { href: "/#directory", label: "Directory" },
   { href: "/events", label: "Events" },
-  { href: "/book", label: "Book the Space" },
   { href: "/about", label: "About" },
 ];
 
@@ -50,20 +49,12 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
-          <a
-            href="https://www.instagram.com/threefifteenaspen"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`border px-4 py-2 text-[13px] font-medium uppercase tracking-wider transition-colors ${
-              solid
-                ? "border-black text-black hover:bg-black hover:text-white"
-                : startsLight
-                  ? "border-black text-black hover:bg-black hover:text-white"
-                  : "border-white text-white hover:bg-white hover:text-black"
-            }`}
+          <Link
+            href="/book"
+            className="border border-black bg-black px-4 py-2 text-[13px] font-medium uppercase tracking-wider text-white transition-colors hover:bg-white hover:text-black"
           >
-            Instagram
-          </a>
+            Book
+          </Link>
         </nav>
 
         <button
@@ -95,14 +86,13 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
-          <a
-            href="https://www.instagram.com/threefifteenaspen"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 border border-black px-1 py-2.5 text-center text-base font-medium uppercase tracking-wide text-black"
+          <Link
+            href="/book"
+            className="mt-2 border border-black bg-black px-1 py-2.5 text-center text-base font-medium uppercase tracking-wide text-white"
+            onClick={() => setOpen(false)}
           >
-            Instagram
-          </a>
+            Book
+          </Link>
         </nav>
       )}
     </header>

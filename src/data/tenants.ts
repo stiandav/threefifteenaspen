@@ -31,10 +31,10 @@ export const tenants: Tenant[] = [
     hours: ["Newsroom: Monday–Friday, 9am–5pm", "Published seven days a week"],
     website: "https://www.aspendailynews.com",
     instagram: "https://www.instagram.com/aspendailynews",
-    heroImage: "/images/building-courtyard-hero.jpg",
-    heroImageAlt: "The brick courtyard at 315 E. Hyman Ave, home to the Aspen Daily News newsroom",
-    cardImage: "/images/building-courtyard-hero.jpg",
-    cardImageAlt: "The building at 315 E. Hyman Ave, home to the Aspen Daily News newsroom",
+    heroImage: "/images/adn-staff-photo.jpg",
+    heroImageAlt: "The Aspen Daily News team outside the newsroom at 315 E. Hyman Ave",
+    cardImage: "/images/adn-staff-photo.jpg",
+    cardImageAlt: "The Aspen Daily News team outside the newsroom at 315 E. Hyman Ave",
     summary:
       "The anchor tenant and free daily newspaper of record for Aspen, published out of the building since its reactivation as ThreeFifteen.",
     body: [
@@ -63,10 +63,10 @@ export const tenants: Tenant[] = [
     hours: ["Studios: by resident artist schedule", "Public programming: weekly, see calendar"],
     website: "https://www.aspenartsclub.org",
     instagram: "https://www.instagram.com/aspenartsclub",
-    heroImage: "/images/art-jamison-menard.jpg",
-    heroImageAlt: "Resident artist Jamison Menard with his artwork at a Fat City Gallery show",
-    cardImage: "/images/art-jamison-menard.jpg",
-    cardImageAlt: "An Aspen Arts Club resident artist standing with his work",
+    heroImage: "/images/aac-studio-doors.jpg",
+    heroImageAlt: "Resident artists at work in their studios at the Aspen Arts Club",
+    cardImage: "/images/aac-studio-doors.jpg",
+    cardImageAlt: "Resident artists at work in their studios at the Aspen Arts Club",
     summary:
       "A Buckhorn Public Arts program that turned eight former offices into free working studios for local artists, with weekly programming open to the whole community.",
     body: [
@@ -130,12 +130,13 @@ export const tenants: Tenant[] = [
     hours: ["Open daily, 11am–7ish"],
     website: "https://www.mischiefvintage.com",
     instagram: "https://www.instagram.com/mischiefvintage_",
-    heroImage: "/images/mischief-flatlay-2.jpg",
-    heroImageAlt: "Mischief Vintage flat-lay display reading 'shopping that inspires thoughtful consumption'",
-    cardImage: "/images/mischief-flatlay-1.jpg",
-    cardImageAlt: "Curated vintage clothing display at Mischief Vintage",
+    heroImage: "/images/mischief-poster.jpg",
+    heroImageAlt: "The Mischief Vintage logo on a vintage paper backdrop with curated jewelry",
+    cardImage: "/images/mischief-poster.jpg",
+    cardImageAlt: "The Mischief Vintage logo on a vintage paper backdrop with curated jewelry",
     gallery: [
       { src: "/images/mischief-flatlay-1.jpg", alt: "Curated vintage bolo ties and bowler hats at Mischief Vintage" },
+      { src: "/images/mischief-flatlay-2.jpg", alt: "Mischief Vintage flat-lay display reading 'shopping that inspires thoughtful consumption'" },
     ],
     summary:
       "Shiloh Uhlir's artistic project turned retail shop, dealing in one-of-a-kind vintage, consignment, and artisan pieces, with a built-in climate give-back.",
@@ -165,11 +166,14 @@ export const tenants: Tenant[] = [
     website: "https://tattooaspen.com",
     instagram: "https://www.instagram.com/tattoo.aspen",
     email: "tattoo@tattooaspen.com",
-    heroImage: "/images/tattoo-hero.jpg",
-    heroImageAlt: "Tattoo Aspen collage of founder Trudy Lines and fine-line tattoo work",
-    cardImage: "/images/tattoo-studio-2.jpg",
-    cardImageAlt: "Tattoo Aspen artist collage featuring visiting artists and fine-line work",
-    gallery: [{ src: "/images/tattoo-studio-1.jpg", alt: "Visiting artists working in the Tattoo Aspen studio" }],
+    heroImage: "/images/tattoo-courtyard.jpg",
+    heroImageAlt: "The Tattoo Aspen sign hanging in the courtyard at 315 E. Hyman Ave",
+    cardImage: "/images/tattoo-courtyard.jpg",
+    cardImageAlt: "The Tattoo Aspen sign hanging in the courtyard at 315 E. Hyman Ave",
+    gallery: [
+      { src: "/images/tattoo-hero.jpg", alt: "Tattoo Aspen collage of founder Trudy Lines and fine-line tattoo work" },
+      { src: "/images/tattoo-studio-1.jpg", alt: "Visiting artists working in the Tattoo Aspen studio" },
+    ],
     summary:
       "Aspen's first-ever private tattoo studio, founded by Corina Weikl (Trudy Lines) and built around a rotating roster of internationally recognized guest artists.",
     body: [
@@ -196,10 +200,10 @@ export const tenants: Tenant[] = [
     tagline: "Affordable co-working and event space, lower level.",
     suite: "Lower level",
     hours: ["Co-working: daily, 7am–6pm", "Community room: public events by calendar"],
-    heroImage: "/images/building-courtyard-hero.jpg",
-    heroImageAlt: "The ThreeFifteen courtyard with mountain views, where Grove events regularly spill outside",
-    cardImage: "/images/building-courtyard-hero.jpg",
-    cardImageAlt: "The ThreeFifteen building courtyard",
+    heroImage: "/images/building-courtyard-grove.jpg",
+    heroImageAlt: "The ThreeFifteen courtyard seating area with mountain views, where Grove events regularly spill outside",
+    cardImage: "/images/building-courtyard-grove.jpg",
+    cardImageAlt: "The ThreeFifteen building courtyard seating area",
     summary:
       "An affordable co-working membership and a public community room downstairs, with every event's proceeds helping fund the Aspen Arts Club upstairs.",
     body: [

@@ -35,15 +35,27 @@ export default function Footer() {
               href="https://www.google.com/maps/place/315+E+Hyman+Ave,+Aspen,+CO+81611"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 block h-32 w-full overflow-hidden border border-white/20"
+              className="mt-4 flex h-28 w-full items-center justify-center border border-white/20 transition-colors hover:border-white/40"
               aria-label="Open 315 E. Hyman Ave in Google Maps"
             >
-              <iframe
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-106.8206%2C39.1897%2C-106.8146%2C39.1927&layer=mapnik&marker=39.1912%2C-106.8176"
-                title="Map of 315 E. Hyman Ave, Aspen, CO"
-                className="map-mono pointer-events-none h-full w-full grayscale"
-                loading="lazy"
-              />
+              <svg
+                viewBox="0 0 320 140"
+                className="h-full w-full"
+                fill="none"
+                aria-hidden="true"
+              >
+                <line x1="0" y1="70" x2="320" y2="70" stroke="white" strokeOpacity="0.35" strokeWidth="1" />
+                <line x1="90" y1="0" x2="90" y2="140" stroke="white" strokeOpacity="0.35" strokeWidth="1" />
+                <line x1="230" y1="0" x2="230" y2="140" stroke="white" strokeOpacity="0.35" strokeWidth="1" />
+                <rect x="10" y="90" width="60" height="38" stroke="white" strokeOpacity="0.3" strokeWidth="1" />
+                <text x="14" y="120" fill="white" fillOpacity="0.4" fontSize="9" letterSpacing="0.05em">
+                  WAGNER PARK
+                </text>
+                <circle cx="160" cy="70" r="4" fill="white" />
+                <text x="160" y="55" fill="white" fontSize="11" textAnchor="middle" letterSpacing="0.05em">
+                  315
+                </text>
+              </svg>
             </a>
           </div>
 

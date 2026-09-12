@@ -91,7 +91,7 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-3xl px-5 py-20 sm:px-8">
         <blockquote className="border-l-2 border-black pl-6">
-          <p className="font-display text-2xl italic leading-snug text-black text-balance">
+          <p className="font-display text-2xl leading-snug text-black text-balance">
             &ldquo;Community is art as a whole.&rdquo;
           </p>
           <cite className="mt-3 block text-xs font-medium not-italic uppercase tracking-widest text-muted">

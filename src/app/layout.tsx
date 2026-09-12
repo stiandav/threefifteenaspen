@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
-import { Bodoni_Moda, Inter } from "next/font/google";
+import { Jost, Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const bodoni = Bodoni_Moda({
+const jost = Jost({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  style: ["normal", "italic"],
+  weight: ["300", "400", "500", "600"],
 });
 
 const inter = Inter({
@@ -59,7 +58,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${bodoni.variable} ${inter.variable} h-full antialiased`}
+      className={`${jost.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-white text-black">
         <Nav />
