@@ -19,7 +19,7 @@ const spaces = [
     name: "The Grove Community Room",
     goodFor: "Private parties · Workshops · Screenings",
     description:
-      "A flexible lower-level room used for yoga, comedy nights, and dance classes by day, easily converted into a private lounge for evening events. Booking proceeds help fund the Aspen Arts Club.",
+      "1,000 to 3,000 square feet of lounge and meeting space on the lower level, used for member programming by day and available for a limited number of private events each month.",
   },
   {
     name: "Upper-Level Studios",
